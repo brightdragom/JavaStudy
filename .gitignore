@@ -1,22 +1,21 @@
 # Directories #
-/build/
-/bin/
-target/
+/**/build/
+/**//bin/
+/**/target/
  
 # OS Files #
 /**/.DS_Store
-  
+/**/.gitignore  
 *.class
- 
 # Package Files #
-*.jar
-*.war
-*.ear
-*.db
+/**/*.jar
+/**/*.war
+/**/*.ear
+/**/*.db
       
 # Eclipse #
-.project
-.metadata
-.classpath
-.settings/
-.loadpath
+/**/.project
+/**/.metadata
+/**/.classpath
+/**/.settings/
+/**/.loadpath
